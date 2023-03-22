@@ -13,6 +13,8 @@ const showPosition = (position)=>{
     let lat = position.coords.latitude;
     let long = position.coords.longitude;
     console.log(lat,long);
+    
+    document.getElementById("oooo").innerHTML = `${lat} + ${long}`
 }
 
 const showError = (error) =>{
